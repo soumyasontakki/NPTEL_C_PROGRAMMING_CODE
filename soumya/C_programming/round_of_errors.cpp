@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-main()
+int main()
 {
 	float sum , n, term ;
 	int count = 1;
@@ -18,4 +18,5 @@ main()
 	}
 	printf("sum = %f\n",sum);
 	
+	return 0;
 }
